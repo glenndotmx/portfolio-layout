@@ -37,10 +37,3 @@ nav li{
 li:hover{
     border-top: 3px solid #E10244;
 }
-
-.title{
-    font-family: 'Raleway', Arial, sans-serif;
-    font-weight: 600;
-    font-size: 1em;
-    padding: 2rem;
-}
