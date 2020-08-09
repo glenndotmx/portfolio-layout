@@ -25,8 +25,21 @@ a:hover{
 /* Navigation */
 nav{
     display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E2E2E2;
 }
 
-nav ul{
-    flex-wrap: nowrap;
+nav li{
+    display: inline-block;
+    padding: 2rem;
+}
+
+li:hover{
+    border-top: 3px inset #E10244;
+}
+
+.title{
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
 }
